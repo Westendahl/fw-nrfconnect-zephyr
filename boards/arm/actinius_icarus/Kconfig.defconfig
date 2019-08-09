@@ -8,26 +8,26 @@
 if BOARD_ACTINIUS_ICARUS || BOARD_ACTINIUS_ICARUS_NS
 
 config BOARD
-	default "actinius_icarus"
+    default "actinius_icarus"
 
 if ADC
 
 config ADC_0
-	default y
+    default y
 
 endif # ADC
 
 if I2C
 
 config I2C_2
-	default y
+    default y
 
 endif # I2C
 
 if PWM
 
 config PWM_0
-	default y
+    default y
 
 endif # PWM
 
@@ -44,17 +44,17 @@ endif # PWM
 if BOARD_ACTINIUS_ICARUS && TRUSTED_EXECUTION_SECURE
 
 config FLASH_LOAD_SIZE
-	default $(dt_hex_val,DT_CODE_PARTITION_SIZE)
+    default $(dt_hex_val,DT_CODE_PARTITION_SIZE)
 
 endif # BOARD_ACTINIUS_ICARUS && TRUSTED_EXECUTION_SECURE
 
 if BOARD_ACTINIUS_ICARUS_NS
 
 config FLASH_LOAD_OFFSET
-	default $(dt_hex_val,DT_CODE_PARTITION_OFFSET)
+    default $(dt_hex_val,DT_CODE_PARTITION_OFFSET)
 
 config FLASH_LOAD_SIZE
-	default $(dt_hex_val,DT_CODE_PARTITION_SIZE)
+    default $(dt_hex_val,DT_CODE_PARTITION_SIZE)
 
 endif # BOARD_ACTINIUS_ICARUS_NS
 

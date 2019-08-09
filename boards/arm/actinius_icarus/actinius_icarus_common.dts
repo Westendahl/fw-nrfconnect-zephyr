@@ -52,19 +52,19 @@
 };
 
 &adc {
-    status ="ok";
+    status ="okay";
 };
 
 &gpiote {
-    status = "ok";
+    status = "okay";
 };
 
 &gpio0 {
-    status = "ok";
+    status = "okay";
 };
 
 &uart0 {
-    status = "ok";
+    status = "okay";
 
     current-speed = <115200>;
     tx-pin = <9>;
@@ -74,7 +74,7 @@
 };
 
 &uart1 {
-    status = "ok";
+    status = "okay";
 
     current-speed = <115200>;
     tx-pin = <24>;
@@ -82,7 +82,7 @@
 };
 
 &i2c2 {
-    status = "ok";
+    status = "okay";
 
     clock-frequency = <I2C_BITRATE_FAST>; 
     sda-pin = <26>;
@@ -97,7 +97,7 @@
 };
 
 &spi3 {
-    status = "ok";
+    status = "okay";
 
     sck-pin = <20>;
     mosi-pin = <21>;
@@ -105,21 +105,21 @@
 };
 
 &pwm0 {
-    status = "ok";
+    status = "okay";
 
     ch0-pin = <4>;
 };
 
 &timer0 {
-    status = "ok";
+    status = "okay";
 };
 
 &timer1 {
-    status = "ok";
+    status = "okay";
 };
 
 &timer2 {
-    status = "ok";
+    status = "okay";
 };
 
 
