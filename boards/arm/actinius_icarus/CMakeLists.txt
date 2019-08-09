@@ -1,5 +1,6 @@
-# Copyright (c) 2019 Nordic Semiconductor ASA.
-# Modifications Copyright (c) 2019 Actinius
+#
+# Copyright (c) 2019 Actinius
+#
 # SPDX-License-Identifier: Apache-2.0
 
 zephyr_library()
