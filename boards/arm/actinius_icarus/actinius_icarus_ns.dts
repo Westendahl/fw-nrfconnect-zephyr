@@ -1,0 +1,18 @@
+/*
+ * Copyright (c) 2018 Nordic Semiconductor ASA
+ * Modifications Copyright (c) 2019 Actinius
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/dts-v1/;
+#include <nordic/nrf9160ns_sica.dtsi>
+#include "actinius_icarus_common.dts"
+
+/ {
+    chosen {
+        zephyr,flash = &flash0;
+        zephyr,sram = &sram0_ns;
+        zephyr,code-partition = &slot0_ns_partition;
+    };
+};
