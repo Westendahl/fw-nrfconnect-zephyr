@@ -81,6 +81,10 @@
     rx-pin = <23>;
 };
 
+&uart2 {
+    status = "okay";
+};
+
 &i2c2 {
     status = "okay";
 
