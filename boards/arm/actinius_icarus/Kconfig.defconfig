@@ -28,6 +28,12 @@ if PWM
 config PWM_0
     default y
 
+config PWM_1
+    default y
+
+config PWM_2
+    default y
+
 endif # PWM
 
 # For the secure version of the board the firmware is linked at the beginning
